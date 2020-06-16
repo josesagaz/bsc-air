@@ -1,0 +1,33 @@
+---
+layout: page
+title: Posts
+permalink: /posts
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Get the latest on what is happening in Bolivia</h1>
+          <p>Catch up with us, anytime and anywhere</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<main class="site__content">
+  <section class="blog">
+    <div class="container">
+      <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+        {% for post in site.posts %}
+        {% include card.html %}
+        {% endfor %}
+        <div class="pagination">
+          <center>
+            {% include pagination.html %}
+          </center>
+        </div>
+      </div>
+  </section>
+</main>

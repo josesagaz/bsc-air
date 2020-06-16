@@ -12,26 +12,57 @@ keep_files:
   - ".git"
   - ".gitignore"
 
+plugins:
+  - jekyll-gallery-generator
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
-url: "http://ndrewtl.github.io" # the base hostname & protocol for your site
+title:    "Bolivia Solidarity Campaign"
+subtitle: "Campaña de Solidaridad con el pueblo de Bolivia"
+url:      "http://boliviasolidarity.org.uk"
+# the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
 
+baseurl: ""
+# cover: "/assets/cover.png"
+#logo: "/assets/logo.png"
 # Build settings
+host: localhost
 markdown: kramdown
-
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+  - cat: news
+    desc: "Latest news from Bolivia."
 
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
+  - cat: video
+    desc: "Latest videos about Bolivia."
+####################################################################################################################
+gallery:
+  dir: photos                  # Path to the gallery
+  symlink: false               # false: copy images into _site. true: create symbolic links (saves disk space)
+  title: "Photos Gallery"      # Title for gallery index page
+  title_prefix: "Collection: " # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+  sort_field: "date_time"      # How to sort galleries on the index page.
+                               # Possible values are: title, date_time, best_image
+  thumbnail_size:
+    x: 400                  # max width of thumbnails (in pixels)
+  # The following options are for individual galleries.
+  galleries:
+    evoNoEstaSolo:
+      best_image: 46.JPG  # The image to show on the gallery index page. Defaults to the last image.
+      name: "People's support for Evo weeks before the coup"
+
+    logros:
+      best_image: 1.png
+      name: "Achievements of the government of Evo Morales Ayma"       # Defaults to directory name, replacing _ with spaces & capitalizing words.
+
+    ParaCivico:
+      best_image: 7.JPG
+      name: "Civic strike of the right-wing opposition"
+    secret_stuff:
+      hidden: true          # Don't show this gallery on the index page. People must guess the URL.
+    with_info:
+      info:
+        desc: "Gallery Description" # Info fields can be used in custom templates.

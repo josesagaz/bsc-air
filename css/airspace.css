@@ -26,7 +26,7 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 400;
 }
 h3 {
@@ -189,7 +189,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+  background: url("../img/RepresionBol.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -231,7 +231,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/Evo-Morales-GZ-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -652,13 +652,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #contact-form {
   padding-top: 70px;
   padding-bottom: 35px;
+  
 }
 #contact-form .block form .form-group {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   margin: 0px;
 }
 #contact-form .block form .form-group .form-control {
-  background: #F6F8FA;
+  background: #CAC0DD; /* #F6F8FA; */
   height: 60px;
   border: 1px solid #EEF2F6;
   box-shadow: none;

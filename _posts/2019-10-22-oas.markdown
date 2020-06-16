@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "OAS Should Retract Its Press Release on Bolivian Election, CEPR Co-Director Says "
+date:   2019-10-22 14:34:25
+categories: news
+tags:
+author: José
+featured-img: oct2019/oas-mas
+---
+
+# Statement About Vote Count Is Wrong, and Destabilizing
+
+Washington, DC ― The OAS statement yesterday on Bolivia’s election should be retracted, said Mark Weisbrot, Co-Director of the Center for Economic and Policy Research.
+
+On Monday, October 21, the OAS issued a statement expressing “its deep concern and surprise at the drastic and hard-to-explain change in the trend of the preliminary results after the closing of the polls.”
+
+“The OAS statement implies that there is something wrong with the vote count in Bolivia because later-reporting voting centers showed a different margin than earlier ones,” Weisbrot said. “But it provides absolutely no evidence — no statistics, numbers, or facts of any kind — to support this idea.
+
+“And in fact, a preliminary analysis of the voting data at all of the more than 34,000 voting tables — which is all publicly available and can be downloaded by anyone — shows no evidence of irregularity.”
+
+See below for an example of this analysis at the city and precinct level. As can be seen from the data, the change in the vote margin in the later-reporting voting centers is a result of geography — i.e., pro-government areas, on average, reported later than those that have a higher proportion of voters who are against the government.
+
+“This kind of change in voting results, due to later-reporting areas being politically or demographically different than earlier ones, is quite common in election returns — as anyone who has watched election returns come in on CNN in the United States knows,” said Weisbrot. “That is why it is wrong to draw conclusions from a change in the voting pattern without any statistical analysis or even looking closely at the data.”
+
+Weisbrot said that it was “irresponsible” to make such accusations when there was already postelection violence in Bolivia. “As this narrative gets repeated in the media, it will take on a life of its own, and will be difficult to correct, even as more people look at the data, or produce statistical analysis.”
+
+Weisbrot also said it was “disturbing” that the OAS release followed, and was followed by, statements by powerful, partisan US political actors who have long been outspoken against the Bolivian government.
+
+
+Continue reading from the source: [cepr.net][cepr]{:target="_blank"}
+
+
+[cepr]:   http://cepr.net/press-center/press-releases/oas-should-retract-its-press-release-on-bolivian-election-cepr-co-director-says

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Posts
+permalink: /posts/
 ---
 <!-- Slider Start -->
 <section id="global-header">
@@ -9,19 +9,25 @@ permalink: /blog/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Get the latest on what we're doing</h1>
+          <h1>List all posts sorted by Date</h1>
           <p>Catch up with us, anytime and anywhere</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-{% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-  <p class="post-date">{{ post.date | date_to_long_string }}</p>
-  <p>
-    {{ post.content | strip_html | truncatewords: 50 }}
-  </p>
-</div>
-{% endfor %}
+
+    <div class="site__content">
+        <div class="blog-a">
+            <div class="container-b" itemscope="" itemtype="http://schema.org/Blog">
+                <div class="post-list">
+                    {% for post in site.posts %}
+                        {% include card.html %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="center-text" style="padding: 30px;">
+        <a href="{{ site.baseurl }}/">Back to Home</a>
+    </p>

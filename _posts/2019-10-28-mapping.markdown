@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Mapping the 2019 general election en Bolivia"
+date:   2019-10-28 16:34:25
+categories: news
+tags:  
+author: José
+featured-img: oct2019/map-header-elections
+---
+![The map officially shows the election results](/img/posts/oct2019/map-elections.jpg){:class="img-responsive"}
+According to the calculation of the Plurinational Electoral Body, the Movement
+to Socialism (Movimiento Al Socialismo - MAS) party of Evo Morales obtained 47.08% of the votes, while the
+Citizen Community (Comunidad Ciudadana - CC) of the candidate Carlos Mesa obtained 36.51%.

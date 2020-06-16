@@ -1,16 +1,16 @@
-- name: Rose Ray
-  title: CEO-Themefisher
-  testimonial: "This company created an e-commerce site with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray sr.
-  title: CEO-Themefisher
-  testimonial: "An e-commerce site was created by this company with the tools to make our business a success, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray jr.
-  title: CEO-Themefisher
-  testimonial: "With the tools to make our business a success, this company created an e-commerce site, with innovative ideas. We feel that our site has unique elements that make us stand out from the crowd."
-  image: img/item-img1.jpg
-- name: Rose Ray III
-  title: CEO-Themefisher
-  testimonial: "We feel that our site has unique elements that make us stand out from the crowd. This company created an e-commerce site with the tools to make our business a success, with innovative ideas."
-  image: img/item-img1.jpg
+- name: Noam Chomsky & Vijay Prashad
+  title: We Stand Against the Coup in Bolivia
+  testimonial: "The coup is driven by the Bolivian oligarchy, who are angered by the fourth election loss by their parties to the Movement for Socialism."
+  image: img/chomsky.jpg
+- name: Bernie Sanders
+  title: United States Senator from Vermont
+  testimonial: "I am very concerned about what appears to be a coup in Bolivia, where the military, after weeks of political unrest, intervened to remove President Evo Morales. The U.S. must call for an end to violence and support Bolivia’s democratic institutions."
+  image: img/Bernie_Sanders.jpg
+- name: Jeremy Corbyn
+  title: Leader of the Labour Party
+  testimonial: "To see @evoespueblo who, along with a powerful movement, has brought so much social progress forced from office by the military is appalling."
+  image: img/jeremy.jpg
+- name: Roger Waters
+  title: Co-founded the progressive rock band Pink Floyd
+  testimonial: "Evo you have right and history on your side and as soon as you are able to come out to your beloved Bolivia, the better it would be for the people and for you but also for the rest of us"
+  image: img/rogerWaters.jpg

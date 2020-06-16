@@ -1,0 +1,35 @@
+---
+layout: page
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/css/baguetteBox.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/grid-gallery.css">
+
+<section class="gallery-block grid-gallery" style="text-align: center;">
+  <div class="container">
+    <div class="heading">
+      <h2>Photo Gallery</h2>
+    </div>
+    <div class="row" style="text-align: -moz-center; text-align: -webkit-center;">
+      {% for gallery in page.galleries %}
+      <div class="col-md-6 col-lg-4 item">
+        <a class="lightbox" href="{{ gallery['gallery'] }}">
+          <img class="img-responsive image scale-on-hover" style="max-width: 18vw; height: 12vw;" src="{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+        </a>
+        <h4>
+          <a href="{{ gallery['gallery'] }}">{{ gallery["name"] }}</a>
+        </h4>
+        <p>
+          <a href="{{ gallery['gallery'] }}">{{ gallery["images"] | size }} image{% if gallery["images"].size != 1 %}s{% endif %}</a>
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<p class="center-text" style="padding: 30px;">
+		<a href="{{ site.baseurl }}/">Back to Home</a>
+</p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<script>
+ baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+</script>
